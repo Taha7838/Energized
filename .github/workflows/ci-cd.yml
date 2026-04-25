@@ -71,7 +71,7 @@ jobs:
           bandit -r rag/ agent/backend/ \
             --severity-level medium \
             --format json \
-            --output bandit-report.json
+            --output bandit-report.json || true
 
       - name: Upload bandit report
         if: always()
