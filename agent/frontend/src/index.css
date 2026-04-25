@@ -1,0 +1,104 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --transition: 0.2s ease;
+}
+
+/* Light theme */
+[data-theme="light"] {
+  --bg-primary: #f8f9fa;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f1f3f5;
+  --bg-hover: #e9ecef;
+  --border: #dee2e6;
+  --border-focus: #4dabf7;
+  --text-primary: #1a1a2e;
+  --text-secondary: #495057;
+  --text-muted: #868e96;
+  --accent: #1971c2;
+  --accent-light: #d0ebff;
+  --accent-hover: #1864ab;
+  --success: #2f9e44;
+  --success-light: #d3f9d8;
+  --warning: #e67700;
+  --warning-light: #fff3bf;
+  --error: #c92a2a;
+  --error-light: #ffe3e3;
+  --cache-badge: #6741d9;
+  --cache-badge-light: #e5dbff;
+  --live-badge: #2f9e44;
+  --live-badge-light: #d3f9d8;
+  --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 16px rgba(0,0,0,0.04);
+  --shadow-lg: 0 4px 24px rgba(0,0,0,0.10);
+  --stream-bg: #f8f9fa;
+  --stream-border: #4dabf7;
+  --stream-text: #1971c2;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-tertiary: #21262d;
+  --bg-hover: #30363d;
+  --border: #30363d;
+  --border-focus: #388bfd;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #6e7681;
+  --accent: #388bfd;
+  --accent-light: #1f3a5f;
+  --accent-hover: #58a6ff;
+  --success: #3fb950;
+  --success-light: #1a3a22;
+  --warning: #d29922;
+  --warning-light: #3a2e00;
+  --error: #f85149;
+  --error-light: #3a1414;
+  --cache-badge: #a371f7;
+  --cache-badge-light: #2d1b6b;
+  --live-badge: #3fb950;
+  --live-badge-light: #1a3a22;
+  --shadow: 0 1px 3px rgba(0,0,0,0.4), 0 4px 16px rgba(0,0,0,0.3);
+  --shadow-lg: 0 4px 24px rgba(0,0,0,0.5);
+  --stream-bg: #161b22;
+  --stream-border: #388bfd;
+  --stream-text: #58a6ff;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-sans);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background var(--transition), color var(--transition);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}

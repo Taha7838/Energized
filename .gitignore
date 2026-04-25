@@ -1,0 +1,30 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ChromaDB persisted data
+**/chroma_store/
+**/chroma_db/
+
+# RAG temp uploads
+**/data/
+
+# Node
+node_modules/
+dist/
+
+# Coverage / test artifacts
+htmlcov/
+.coverage
+coverage.xml
+bandit-report.json
+
+# OS
+.DS_Store
+Thumbs.db
