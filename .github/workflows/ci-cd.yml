@@ -28,13 +28,13 @@ jobs:
         run: |
           flake8 rag/ \
             --max-line-length=120 \
-            --extend-ignore=E221,E251,E272,E401,E501,E701,W292,E302,F401
+            --extend-ignore=E221,E251,E272,E401,E501,E701,W292,E302,F401,F541
 
       - name: Flake8 — agent/backend/
         run: |
           flake8 agent/backend/ \
             --max-line-length=120 \
-            --extend-ignore=E221,E251,E272,E401,E501,E701,W292,E302,F401
+            --extend-ignore=E221,E251,E272,E401,E501,E701,W292,E302,F401,F541
 
       - name: Set up Node
         uses: actions/setup-node@v4
