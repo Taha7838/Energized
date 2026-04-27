@@ -217,14 +217,14 @@ jobs:
           curl -sf -X POST "${{ secrets.RENDER_HOOK_AGENT }}"
           curl -sf -X POST "${{ secrets.RENDER_HOOK_FRONTEND }}"
 
-      - name: Upload nginx.conf to VM
+      - name: Upload nginx.production.conf to VM
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.AWS_VM_HOST }}
           username: ${{ secrets.AWS_VM_USER }}
           key: ${{ secrets.AWS_VM_SSH_KEY }}
-          source: nginx/nginx.conf
-          target: /tmp/nginx.conf
+          source: nginx/nginx.production.conf
+          target: /tmp/nginx.production.conf
           strip_components: 1
 
       - name: Reload nginx on VM
@@ -234,6 +234,6 @@ jobs:
           username: ${{ secrets.AWS_VM_USER }}
           key: ${{ secrets.AWS_VM_SSH_KEY }}
           script: |
-            sudo cp /tmp/nginx.conf /etc/nginx/nginx.conf
+            sudo cp /tmp/nginx.production.conf /etc/nginx/nginx.conf
             sudo nginx -t
             sudo nginx -s reload
