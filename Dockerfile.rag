@@ -13,6 +13,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY rag/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Download the embedding model at build time so the container never
+# hits HuggingFace at runtime — eliminates the OOM spike on startup.
+RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+
 COPY rag/ .
 
 EXPOSE 8001
