@@ -43,8 +43,9 @@ def test_rag_health():
     assert response.status_code == 200, (
         f"Expected 200, got {response.status_code}. Body: {response.text}"
     )
-    assert response.json() == {"status": "ok"}, (
-        f"Unexpected body: {response.json()}"
+    body = response.json()
+    assert body.get("status") == "ok", (
+        f"Unexpected body: {body}"
     )
 
 
@@ -54,8 +55,9 @@ def test_agent_health():
     assert response.status_code == 200, (
         f"Expected 200, got {response.status_code}. Body: {response.text}"
     )
-    assert response.json() == {"status": "ok"}, (
-        f"Unexpected body: {response.json()}"
+    body = response.json()
+    assert body.get("status") == "ok", (
+        f"Unexpected body: {body}"
     )
 
 

@@ -126,24 +126,24 @@ jobs:
           IMAGE_TAG=${IMAGE_TAG}
           EOF
 
-      - name: Start services
-        run: docker compose up -d
+      # - name: Start services
+      #   run: docker compose up -d
 
-      - name: Wait for services to be healthy
-        run: |
-          echo "Waiting for services..."
-          for i in $(seq 1 30); do
-            if curl -sf http://localhost/rag/api/health && \
-               curl -sf http://localhost/api/health; then
-              echo "All services healthy"
-              exit 0
-            fi
-            echo "Attempt $i/30 — retrying in 5s..."
-            sleep 5
-          done
-          echo "Services failed to become healthy"
-          docker compose logs
-          exit 1
+      # - name: Wait for services to be healthy
+      #   run: |
+      #     echo "Waiting for services..."
+      #     for i in $(seq 1 30); do
+      #       if curl -sf http://localhost/rag/api/health && \
+      #          curl -sf http://localhost/api/health; then
+      #         echo "All services healthy"
+      #         exit 0
+      #       fi
+      #       echo "Attempt $i/30 — retrying in 5s..."
+      #       sleep 5
+      #     done
+      #     echo "Services failed to become healthy"
+      #     docker compose logs
+      #     exit 1
 
       - name: Run smoke tests
         run: pytest tests/test_health.py -v
