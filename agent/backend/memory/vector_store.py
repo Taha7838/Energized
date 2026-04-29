@@ -2,10 +2,10 @@ import logging
 import hashlib
 from datetime import datetime
 from pathlib import Path
-
+import os
+import google.generativeai as genai
 import chromadb
 import numpy as np
-# from sentence_transformers import SentenceTransformer
 from core.settings import settings
 
 logging.basicConfig(level=logging.INFO)
@@ -28,9 +28,6 @@ logger = logging.getLogger(__name__)
 #     """Embed a single string. Returns a normalized float list."""
 #     vec = _embed_model.encode(text, normalize_embeddings=True)
 #     return vec.tolist()
-
-import os
-import google.generativeai as genai
 
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
