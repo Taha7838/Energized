@@ -108,14 +108,14 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build images for test
-        run: |
-          docker build -f Dockerfile.rag \
-            -t ${{ secrets.DOCKERHUB_USERNAME }}/energized-rag:${IMAGE_TAG} .
-          docker build -f Dockerfile.agent-backend \
-            -t ${{ secrets.DOCKERHUB_USERNAME }}/energized-agent-backend:${IMAGE_TAG} .
-          docker build -f Dockerfile.frontend \
-            -t ${{ secrets.DOCKERHUB_USERNAME }}/energized-frontend:${IMAGE_TAG} .
+      # - name: Build images for test
+      #   run: |
+      #     docker build -f Dockerfile.rag \
+      #       -t ${{ secrets.DOCKERHUB_USERNAME }}/energized-rag:${IMAGE_TAG} .
+      #     docker build -f Dockerfile.agent-backend \
+      #       -t ${{ secrets.DOCKERHUB_USERNAME }}/energized-agent-backend:${IMAGE_TAG} .
+      #     docker build -f Dockerfile.frontend \
+      #       -t ${{ secrets.DOCKERHUB_USERNAME }}/energized-frontend:${IMAGE_TAG} .
 
       - name: Write .env for compose
         run: |
@@ -123,7 +123,7 @@ jobs:
           DOCKERHUB_USERNAME=${{ secrets.DOCKERHUB_USERNAME }}
           GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
           TAVILY_API_KEY=${{ secrets.TAVILY_API_KEY }}
-          IMAGE_TAG=${IMAGE_TAG}
+          IMAGE_TAG=latest
           EOF
 
       # - name: Start services
