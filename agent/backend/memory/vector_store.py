@@ -3,10 +3,10 @@ import hashlib
 from datetime import datetime
 from pathlib import Path
 import os
-import google.generativeai as genai
 import chromadb
 import numpy as np
 from core.settings import settings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -29,15 +29,14 @@ logger = logging.getLogger(__name__)
 #     vec = _embed_model.encode(text, normalize_embeddings=True)
 #     return vec.tolist()
 
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+_embeddings = GoogleGenerativeAIEmbeddings(
+    model="models/text-embedding-004",
+    google_api_key=os.environ["GEMINI_API_KEY"],
+    task_type="SEMANTIC_SIMILARITY",
+)
 
 def _embed(text: str) -> list[float]:
-    result = genai.embed_content(
-        model="models/text-embedding-004",
-        content=text,
-        task_type="SEMANTIC_SIMILARITY",
-    )
-    return result["embedding"]
+    return _embeddings.embed_query(text)
 
 # ==============================================================================
 
