@@ -148,6 +148,10 @@ jobs:
       - name: Run smoke tests
         run: pytest tests/test_health.py -v
 
+      - name: Dump agent-backend logs on failure
+        if: failure()
+        run: docker compose --env-file .env logs agent-backend
+
       - name: Tear down
         if: always()
         run: docker compose down
