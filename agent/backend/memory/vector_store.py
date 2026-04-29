@@ -39,7 +39,7 @@ def _embed(text: str) -> list[float]:
     )
     return result["embedding"]
 
-#==============================================================================
+# ==============================================================================
 
 def _init_client() -> tuple[chromadb.PersistentClient, chromadb.Collection]:
     try:
