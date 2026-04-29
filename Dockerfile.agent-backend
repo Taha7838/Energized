@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Download the embedding model at build time — same fix as Dockerfile.rag.
 # vector_store.py loads SentenceTransformer at module level, which spikes
 # memory over 512MB on Render's free tier if it downloads at runtime.
-RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+# RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
 
 COPY agent/backend/ .
 

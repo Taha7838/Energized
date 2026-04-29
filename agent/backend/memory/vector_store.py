@@ -5,7 +5,7 @@ from pathlib import Path
 
 import chromadb
 import numpy as np
-from sentence_transformers import SentenceTransformer
+# from sentence_transformers import SentenceTransformer
 from core.settings import settings
 
 logging.basicConfig(level=logging.INFO)
@@ -15,20 +15,34 @@ logger = logging.getLogger(__name__)
 # Load the embedding model ONCE at module level — same instance for
 # both store and query operations. This guarantees consistent vectors.
 # ---------------------------------------------------------------------------
-try:
-    _embed_model = SentenceTransformer("all-MiniLM-L6-v2")
-    logger.info("[VectorStore] Embedding model loaded: all-MiniLM-L6-v2")
-except Exception as e:
-    import sys
-    print(f"\n[VectorStore] Failed to load embedding model: {e}\n")
-    sys.exit(1)
+# try:
+#     _embed_model = SentenceTransformer("all-MiniLM-L6-v2")
+#     logger.info("[VectorStore] Embedding model loaded: all-MiniLM-L6-v2")
+# except Exception as e:
+#     import sys
+#     print(f"\n[VectorStore] Failed to load embedding model: {e}\n")
+#     sys.exit(1)
 
+
+# def _embed(text: str) -> list[float]:
+#     """Embed a single string. Returns a normalized float list."""
+#     vec = _embed_model.encode(text, normalize_embeddings=True)
+#     return vec.tolist()
+
+import os
+import google.generativeai as genai
+
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 def _embed(text: str) -> list[float]:
-    """Embed a single string. Returns a normalized float list."""
-    vec = _embed_model.encode(text, normalize_embeddings=True)
-    return vec.tolist()
+    result = genai.embed_content(
+        model="models/text-embedding-004",
+        content=text,
+        task_type="SEMANTIC_SIMILARITY",
+    )
+    return result["embedding"]
 
+#==============================================================================
 
 def _init_client() -> tuple[chromadb.PersistentClient, chromadb.Collection]:
     try:
