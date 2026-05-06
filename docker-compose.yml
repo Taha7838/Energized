@@ -36,7 +36,7 @@ services:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
       interval: 30s
       timeout: 10s
-      start_period: 60s
+      start_period: 20s
       retries: 3
 
   # ── Frontend ────────────────────────────────────────────────────────────────
@@ -47,7 +47,7 @@ services:
     networks:
       - internal
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost/index.html"]
+      test: ["CMD", "wget", "-qO-", "http://localhost/index.html"]
       interval: 30s
       timeout: 5s
       start_period: 10s

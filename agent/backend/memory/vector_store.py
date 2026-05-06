@@ -2,11 +2,11 @@ import logging
 import hashlib
 from datetime import datetime
 from pathlib import Path
-import os
+
 import chromadb
 import numpy as np
+from sentence_transformers import SentenceTransformer
 from core.settings import settings
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -15,30 +15,20 @@ logger = logging.getLogger(__name__)
 # Load the embedding model ONCE at module level — same instance for
 # both store and query operations. This guarantees consistent vectors.
 # ---------------------------------------------------------------------------
-# try:
-#     _embed_model = SentenceTransformer("all-MiniLM-L6-v2")
-#     logger.info("[VectorStore] Embedding model loaded: all-MiniLM-L6-v2")
-# except Exception as e:
-#     import sys
-#     print(f"\n[VectorStore] Failed to load embedding model: {e}\n")
-#     sys.exit(1)
+try:
+    _embed_model = SentenceTransformer("all-MiniLM-L6-v2")
+    logger.info("[VectorStore] Embedding model loaded: all-MiniLM-L6-v2")
+except Exception as e:
+    import sys
+    print(f"\n[VectorStore] Failed to load embedding model: {e}\n")
+    sys.exit(1)
 
-
-# def _embed(text: str) -> list[float]:
-#     """Embed a single string. Returns a normalized float list."""
-#     vec = _embed_model.encode(text, normalize_embeddings=True)
-#     return vec.tolist()
-
-_embeddings = GoogleGenerativeAIEmbeddings(
-    model="models/gemini-embedding-001",
-    google_api_key=os.environ["GEMINI_API_KEY"],
-    task_type="SEMANTIC_SIMILARITY",
-)
 
 def _embed(text: str) -> list[float]:
-    return _embeddings.embed_query(text)
+    """Embed a single string. Returns a normalized float list."""
+    vec = _embed_model.encode(text, normalize_embeddings=True)
+    return vec.tolist()
 
-# ==============================================================================
 
 def _init_client() -> tuple[chromadb.PersistentClient, chromadb.Collection]:
     try:

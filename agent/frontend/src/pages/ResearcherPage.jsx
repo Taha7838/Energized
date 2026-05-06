@@ -1,6 +1,6 @@
 // agent/frontend/src/pages/ResearcherPage.jsx
 
-import React, { useState, useRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import QueryInput from '../components/QueryInput'
 import ResultDisplay from '../components/ResultDisplay'
 import StreamingIndicator from '../components/StreamingIndicator'

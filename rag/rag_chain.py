@@ -118,48 +118,28 @@ class TextChunker:
         return all_chunks
 
 
-# class GeminiEmbedder:
-#     """Local sentence-transformers embedder."""
-
-#     def __init__(self, model: str = EMBEDDING_MODEL):
-#         from sentence_transformers import SentenceTransformer
-#         self.model_name = model
-#         self._model     = SentenceTransformer(model)
-
-#     def embed_texts(self, texts: List[str], show_progress: bool = False) -> List[List[float]]:
-#         return self._model.encode(
-#             texts,
-#             show_progress_bar    = show_progress,
-#             convert_to_numpy     = True,
-#             normalize_embeddings = True,
-#         ).tolist()
-
-#     def embed_query(self, query: str) -> List[float]:
-#         return self._model.encode(
-#             query,
-#             convert_to_numpy     = True,
-#             normalize_embeddings = True,
-#         ).tolist()
-
-# rag/rag_chain.py
-
 class GeminiEmbedder:
-    """Gemini API embedder — replaces local sentence-transformers."""
+    """Local sentence-transformers embedder."""
 
-    def __init__(self, model: str = "models/gemini-embedding-001"):
-        import os
-        from langchain_google_genai import GoogleGenerativeAIEmbeddings
-        self._embeddings = GoogleGenerativeAIEmbeddings(
-            model=model,
-            google_api_key=os.environ["GEMINI_API_KEY"],
-            task_type="RETRIEVAL_DOCUMENT",
-        )
+    def __init__(self, model: str = EMBEDDING_MODEL):
+        from sentence_transformers import SentenceTransformer
+        self.model_name = model
+        self._model     = SentenceTransformer(model)
 
     def embed_texts(self, texts: List[str], show_progress: bool = False) -> List[List[float]]:
-        return self._embeddings.embed_documents(texts)
+        return self._model.encode(
+            texts,
+            show_progress_bar    = show_progress,
+            convert_to_numpy     = True,
+            normalize_embeddings = True,
+        ).tolist()
 
     def embed_query(self, query: str) -> List[float]:
-        return self._embeddings.embed_query(query)
+        return self._model.encode(
+            query,
+            convert_to_numpy     = True,
+            normalize_embeddings = True,
+        ).tolist()
 
 
 class VectorStore:
