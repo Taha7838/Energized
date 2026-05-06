@@ -965,3 +965,234 @@ SOURCES:
   [9] https://www.utmconsultants.com/advancements-in-offshore-wind-turbine-technology-what-lies-ahead/
   [10] https://www.mdpi.com/2071-1050/17/2/596
 
+======================================================================
+DATE     : 2026-05-06 14:54:55 UTC
+SOURCE   : LIVE
+QUERY    : Latest trends in offshore wind energy
+======================================================================
+
+## Executive Summary
+
+The global offshore wind energy market is experiencing robust growth, driven by supportive government policies, technological advancements, and decreasing costs. Projections indicate a significant expansion in installed capacity and market value over the next decade. Key technological trends include the rapid development and deployment of floating wind turbines, enabling access to deeper waters. Economic drivers, such as tax credits and manufacturing incentives, are crucial for attracting investment and fostering domestic supply chains, while grid integration remains a critical area for optimization.
+
+## Key Findings
+
+### Market Trends and Growth Trajectory
+The offshore wind energy market is on a substantial growth trajectory. It was valued at an estimated USD 39.97 billion in 2024 and is projected to reach USD 65.04 billion by 2030, exhibiting a Compound Annual Growth Rate (CAGR) of 12.2% according to one forecast, with another estimating growth to USD 76.54 billion by 2030 at a CAGR of 13.8% (Grand View Research; Fortune Business Insights). Projections extend to a market value of USD 307.5 billion by 2035. Global installed offshore wind capacity reached 80.9 GW in 2024, with China accounting for approximately half. Capacity is expected to grow by 28% year-on-year in 2025, nearing 100 GW (MOL Service). Europe currently holds a leading market share, estimated at 47.0% in 2026 (Coherent Market Insights). The U.S. market also shows significant potential, with a development pipeline of 35,324 MW estimated in May 2021 (U.S. Department of Energy). Key growth drivers include supportive government policies, increasing turbine capacity, a declining Levelized Cost of Energy (LCOE), and expansion into new geographical markets (Fortune Business Insights).
+
+### Technological Advancements: Floating Wind and Turbine Scale
+A pivotal trend is the advancement and deployment of floating wind turbines. These technologies allow for installation in deeper waters, unlocking areas with stronger and more consistent wind resources, thereby expanding potential sites and increasing energy generation (U.S. Department of Energy; Iberdrola; UTM Consultants). The floating offshore wind market was valued at USD 1.18 billion in 2023 and is anticipated to grow at a remarkable CAGR of 45.5% from 2024 to 2030 (Grand View Research). Concurrently, turbine manufacturers are developing larger turbines with increased capacity, enhancing energy capture and reducing the cost per megawatt (Leadvent Group; UTM Consultants). Innovations in foundation designs (e.g., spar, semi-submersible, tension leg platform) and mooring systems, alongside adaptations for harsh environments, are also critical (UKERC; GEV Wind Power; Iberdrola; Grand View Research). Floating platforms offer a more cost-effective solution for deep-water installations compared to fixed-bottom foundations (GEV Wind Power).
+
+### Policy and Economic Drivers
+Government support and ambitious targets are primary catalysts for offshore wind development. For instance, the U.S. has set targets of 39 GW by 2040 (U.S. Department of Energy). Strong policy frameworks and climate goals are particularly influential in Europe (Coherent Market Insights). Economic incentives play a crucial role in attracting investment and fostering domestic manufacturing. In the U.S., projects can be eligible for tax credits of up to 50% of construction costs, with additional incentives for domestically produced components (Offshore Wind Facts). State-level programs, such as those in Massachusetts, aim to stimulate investment in manufacturing facilities and job creation (MassCEC). These policies are designed to reduce the LCOE and attract domestic manufacturing (Offshore Wind Facts; Fortune Business Insights). Beyond direct financial benefits, offshore wind is recognized for its potential to stimulate economic growth, create jobs (estimated 390,000 Americans employed), improve public health, enhance energy security, and meet carbon reduction targets (Energy Innovation; Sierra Club). Holistic transmission planning is also identified as a strategy to reduce costs by up to 30% and enhance resource diversity (Energy Innovation).
+
+## Critical Takeaways
+
+*   **Accelerated Market Growth:** The offshore wind market is set for significant expansion, driven by both established and emerging regions, with floating wind technology being a key enabler of future growth.
+*   **Technological Maturation of Floating Wind:** Floating offshore wind is transitioning from niche to mainstream, promising to unlock vast deep-water resources and driving a high CAGR for this segment.
+*   **Policy and Incentives are Critical:** Government support, including tax credits and manufacturing incentives, is indispensable for de-risking projects, attracting investment, and building robust domestic supply chains.
+*   **Cost Reduction Remains a Focus:** Continued innovation in turbine technology, foundation design, and efficient grid integration are essential for further reducing the LCOE and enhancing the competitiveness of offshore wind.
+
+## Data & Statistics
+
+*   **Projected Market Value (2035):** USD 307.5 billion (CAGR 12.2%) (Grand View Research, as cited by Coherent Market Insights)
+*   **Estimated Market Value (2024):** USD 39.97 billion (Grand View Research)
+*   **Projected Market Value (2030):** USD 65.04 billion (Grand View Research) or USD 76.54 billion (Fortune Business Insights)
+*   **Projected CAGR (2023-2030):** 13.8% (Fortune Business Insights)
+*   **Global Installed Capacity (2024):** 80.9 GW (MOL Service)
+*   **Projected Capacity Growth (2025):** ~100 GW (28% year-on-year increase) (MOL Service)
+*   **Europe's Market Share (2026):** ~47.0% (Coherent Market Insights)
+*   **U.S. Development Pipeline (May 2021):** 35,324 MW (U.S. Department of Energy)
+*   **Floating Offshore Wind Market Value (2023):** USD 1.18 billion (Grand View Research)
+*   **Projected Floating Wind CAGR (2024-2030):** 45.5% (Grand View Research)
+*   **U.S. Offshore Wind Tax Credit:** Up to 50% of construction costs (Offshore Wind Facts)
+*   **Domestic Manufacturing Incentive (U.S.):** Up to $16 million per turbine (Offshore Wind Facts)
+*   **Estimated U.S. Job Creation:** 390,000 jobs (Sierra Club)
+*   **Transmission Planning Cost Reduction:** Up to 30% (Energy Innovation)
+
+## Sources
+
+1.  https://www.energy.gov/cmei/systems/articles/top-trends-offshore-wind
+2.  https://www.grandviewresearch.com/industry-analysis/offshore-wind-market-report
+3.  https://www.linkedin.com/pulse/global-united-states-offshore-wind-power-market-analysis-dzyrf
+4.  https://www.coherentmarketinsights.com/market-insight/offshore-wind-energy-market-1417
+5.  https://www.mol-service.com/blog/offshore-wind-power-today
+6.  https://www.fortunebusinessinsights.com/offshore-wind-energy-market-105100
+7.  https://www.energy.gov/sites/default/files/2022-01/offshore-wind-energy-strategies-report-january-2022.pdf
+8.  https://offshorewindfacts.org/wp-content/uploads/2024/04/03_SIOW_The-Economics-of-Offshore-Wind-FINAL.pdf
+9.  https://energyinnovation.org/wp-content/uploads/2035-Offshore-Wind-Policy-Paper-2.pdf
+10. https://www.sierraclub.org/santa-lucia/economic-and-social-benefits-offshore-wind-industry
+11. https://www.masscec.com/program/offshore-wind-2025-tax-incentives
+12. https://ukerc.rl.ac.uk/publications/policy_briefing_paper/3505-Floating-Wind-Insights-Highres-AW.pdf
+13. https://www.gevwindpower.com/wind-industry-news/the-growth-of-floating-offshore-wind/
+14. https://www.iberdrola.com/about-us/our-innovation-model/floating-offshore-wind
+15. https://www.utmconsultants.com/advancements-in-offshore-wind-turbine-technology-what-lies-ahead/
+16. https://www.leadventgrp.com/blog/floating-wind-the-latest-technological-advancements
+17. https://www.grandviewresearch.com/industry-analysis/floating-offshore-wind-market
+
+SOURCES:
+  [1] https://www.energy.gov/cmei/systems/articles/top-trends-offshore-wind
+  [2] https://www.grandviewresearch.com/industry-analysis/offshore-wind-market-report
+  [3] https://www.linkedin.com/pulse/global-united-states-offshore-wind-power-market-analysis-dzyrf
+  [4] https://www.coherentmarketinsights.com/market-insight/offshore-wind-energy-market-1417
+  [5] https://www.mol-service.com/blog/offshore-wind-power-today
+  [6] https://www.fortunebusinessinsights.com/offshore-wind-energy-market-105100
+  [7] https://www.energy.gov/sites/default/files/2022-01/offshore-wind-energy-strategies-report-january-2022.pdf
+  [8] https://offshorewindfacts.org/wp-content/uploads/2024/04/03_SIOW_The-Economics-of-Offshore-Wind-FINAL.pdf
+  [9] https://energyinnovation.org/wp-content/uploads/2035-Offshore-Wind-Policy-Paper-2.pdf
+  [10] https://www.sierraclub.org/santa-lucia/economic-and-social-benefits-offshore-wind-industry
+
+======================================================================
+DATE     : 2026-05-06 14:55:53 UTC
+SOURCE   : CACHE
+QUERY    : Latest trends in offshore wind energy
+======================================================================
+
+## Executive Summary
+
+The global offshore wind energy market is experiencing robust growth, driven by supportive government policies, technological advancements, and decreasing costs. Projections indicate a significant expansion in installed capacity and market value over the next decade. Key technological trends include the rapid development and deployment of floating wind turbines, enabling access to deeper waters. Economic drivers, such as tax credits and manufacturing incentives, are crucial for attracting investment and fostering domestic supply chains, while grid integration remains a critical area for optimization.
+
+## Key Findings
+
+### Market Trends and Growth Trajectory
+The offshore wind energy market is on a substantial growth trajectory. It was valued at an estimated USD 39.97 billion in 2024 and is projected to reach USD 65.04 billion by 2030, exhibiting a Compound Annual Growth Rate (CAGR) of 12.2% according to one forecast, with another estimating growth to USD 76.54 billion by 2030 at a CAGR of 13.8% (Grand View Research; Fortune Business Insights). Projections extend to a market value of USD 307.5 billion by 2035. Global installed offshore wind capacity reached 80.9 GW in 2024, with China accounting for approximately half. Capacity is expected to grow by 28% year-on-year in 2025, nearing 100 GW (MOL Service). Europe currently holds a leading market share, estimated at 47.0% in 2026 (Coherent Market Insights). The U.S. market also shows significant potential, with a development pipeline of 35,324 MW estimated in May 2021 (U.S. Department of Energy). Key growth drivers include supportive government policies, increasing turbine capacity, a declining Levelized Cost of Energy (LCOE), and expansion into new geographical markets (Fortune Business Insights).
+
+### Technological Advancements: Floating Wind and Turbine Scale
+A pivotal trend is the advancement and deployment of floating wind turbines. These technologies allow for installation in deeper waters, unlocking areas with stronger and more consistent wind resources, thereby expanding potential sites and increasing energy generation (U.S. Department of Energy; Iberdrola; UTM Consultants). The floating offshore wind market was valued at USD 1.18 billion in 2023 and is anticipated to grow at a remarkable CAGR of 45.5% from 2024 to 2030 (Grand View Research). Concurrently, turbine manufacturers are developing larger turbines with increased capacity, enhancing energy capture and reducing the cost per megawatt (Leadvent Group; UTM Consultants). Innovations in foundation designs (e.g., spar, semi-submersible, tension leg platform) and mooring systems, alongside adaptations for harsh environments, are also critical (UKERC; GEV Wind Power; Iberdrola; Grand View Research). Floating platforms offer a more cost-effective solution for deep-water installations compared to fixed-bottom foundations (GEV Wind Power).
+
+### Policy and Economic Drivers
+Government support and ambitious targets are primary catalysts for offshore wind development. For instance, the U.S. has set targets of 39 GW by 2040 (U.S. Department of Energy). Strong policy frameworks and climate goals are particularly influential in Europe (Coherent Market Insights). Economic incentives play a crucial role in attracting investment and fostering domestic manufacturing. In the U.S., projects can be eligible for tax credits of up to 50% of construction costs, with additional incentives for domestically produced components (Offshore Wind Facts). State-level programs, such as those in Massachusetts, aim to stimulate investment in manufacturing facilities and job creation (MassCEC). These policies are designed to reduce the LCOE and attract domestic manufacturing (Offshore Wind Facts; Fortune Business Insights). Beyond direct financial benefits, offshore wind is recognized for its potential to stimulate economic growth, create jobs (estimated 390,000 Americans employed), improve public health, enhance energy security, and meet carbon reduction targets (Energy Innovation; Sierra Club). Holistic transmission planning is also identified as a strategy to reduce costs by up to 30% and enhance resource diversity (Energy Innovation).
+
+## Critical Takeaways
+
+*   **Accelerated Market Growth:** The offshore wind market is set for significant expansion, driven by both established and emerging regions, with floating wind technology being a key enabler of future growth.
+*   **Technological Maturation of Floating Wind:** Floating offshore wind is transitioning from niche to mainstream, promising to unlock vast deep-water resources and driving a high CAGR for this segment.
+*   **Policy and Incentives are Critical:** Government support, including tax credits and manufacturing incentives, is indispensable for de-risking projects, attracting investment, and building robust domestic supply chains.
+*   **Cost Reduction Remains a Focus:** Continued innovation in turbine technology, foundation design, and efficient grid integration are essential for further reducing the LCOE and enhancing the competitiveness of offshore wind.
+
+## Data & Statistics
+
+*   **Projected Market Value (2035):** USD 307.5 billion (CAGR 12.2%) (Grand View Research, as cited by Coherent Market Insights)
+*   **Estimated Market Value (2024):** USD 39.97 billion (Grand View Research)
+*   **Projected Market Value (2030):** USD 65.04 billion (Grand View Research) or USD 76.54 billion (Fortune Business Insights)
+*   **Projected CAGR (2023-2030):** 13.8% (Fortune Business Insights)
+*   **Global Installed Capacity (2024):** 80.9 GW (MOL Service)
+*   **Projected Capacity Growth (2025):** ~100 GW (28% year-on-year increase) (MOL Service)
+*   **Europe's Market Share (2026):** ~47.0% (Coherent Market Insights)
+*   **U.S. Development Pipeline (May 2021):** 35,324 MW (U.S. Department of Energy)
+*   **Floating Offshore Wind Market Value (2023):** USD 1.18 billion (Grand View Research)
+*   **Projected Floating Wind CAGR (2024-2030):** 45.5% (Grand View Research)
+*   **U.S. Offshore Wind Tax Credit:** Up to 50% of construction costs (Offshore Wind Facts)
+*   **Domestic Manufacturing Incentive (U.S.):** Up to $16 million per turbine (Offshore Wind Facts)
+*   **Estimated U.S. Job Creation:** 390,000 jobs (Sierra Club)
+*   **Transmission Planning Cost Reduction:** Up to 30% (Energy Innovation)
+
+## Sources
+
+1.  https://www.energy.gov/cmei/systems/articles/top-trends-offshore-wind
+2.  https://www.grandviewresearch.com/industry-analysis/offshore-wind-market-report
+3.  https://www.linkedin.com/pulse/global-united-states-offshore-wind-power-market-analysis-dzyrf
+4.  https://www.coherentmarketinsights.com/market-insight/offshore-wind-energy-market-1417
+5.  https://www.mol-service.com/blog/offshore-wind-power-today
+6.  https://www.fortunebusinessinsights.com/offshore-wind-energy-market-105100
+7.  https://www.energy.gov/sites/default/files/2022-01/offshore-wind-energy-strategies-report-january-2022.pdf
+8.  https://offshorewindfacts.org/wp-content/uploads/2024/04/03_SIOW_The-Economics-of-Offshore-Wind-FINAL.pdf
+9.  https://energyinnovation.org/wp-content/uploads/2035-Offshore-Wind-Policy-Paper-2.pdf
+10. https://www.sierraclub.org/santa-lucia/economic-and-social-benefits-offshore-wind-industry
+11. https://www.masscec.com/program/offshore-wind-2025-tax-incentives
+12. https://ukerc.rl.ac.uk/publications/policy_briefing_paper/3505-Floating-Wind-Insights-Highres-AW.pdf
+13. https://www.gevwindpower.com/wind-industry-news/the-growth-of-floating-offshore-wind/
+14. https://www.iberdrola.com/about-us/our-innovation-model/floating-offshore-wind
+15. https://www.utmconsultants.com/advancements-in-offshore-wind-turbine-technology-what-lies-ahead/
+16. https://www.leadventgrp.com/blog/floating-wind-the-latest-technological-advancements
+17. https://www.grandviewresearch.com/industry-analysis/floating-offshore-wind-market
+
+SOURCES:
+  [1] https://www.energy.gov/cmei/systems/articles/top-trends-offshore-wind
+  [2] https://www.grandviewresearch.com/industry-analysis/offshore-wind-market-report
+  [3] https://www.linkedin.com/pulse/global-united-states-offshore-wind-power-market-analysis-dzyrf
+  [4] https://www.coherentmarketinsights.com/market-insight/offshore-wind-energy-market-1417
+  [5] https://www.mol-service.com/blog/offshore-wind-power-today
+  [6] https://www.fortunebusinessinsights.com/offshore-wind-energy-market-105100
+  [7] https://www.energy.gov/sites/default/files/2022-01/offshore-wind-energy-strategies-report-january-2022.pdf
+  [8] https://offshorewindfacts.org/wp-content/uploads/2024/04/03_SIOW_The-Economics-of-Offshore-Wind-FINAL.pdf
+  [9] https://energyinnovation.org/wp-content/uploads/2035-Offshore-Wind-Policy-Paper-2.pdf
+  [10] https://www.sierraclub.org/santa-lucia/economic-and-social-benefits-offshore-wind-industry
+
+======================================================================
+DATE     : 2026-05-06 15:06:00 UTC
+SOURCE   : CACHE
+QUERY    : Latest trends in offshore wind energy
+======================================================================
+
+## Executive Summary
+
+The global offshore wind energy market is experiencing robust growth, driven by supportive government policies, technological advancements, and decreasing costs. Projections indicate a significant expansion in installed capacity and market value over the next decade. Key technological trends include the rapid development and deployment of floating wind turbines, enabling access to deeper waters. Economic drivers, such as tax credits and manufacturing incentives, are crucial for attracting investment and fostering domestic supply chains, while grid integration remains a critical area for optimization.
+
+## Key Findings
+
+### Market Trends and Growth Trajectory
+The offshore wind energy market is on a substantial growth trajectory. It was valued at an estimated USD 39.97 billion in 2024 and is projected to reach USD 65.04 billion by 2030, exhibiting a Compound Annual Growth Rate (CAGR) of 12.2% according to one forecast, with another estimating growth to USD 76.54 billion by 2030 at a CAGR of 13.8% (Grand View Research; Fortune Business Insights). Projections extend to a market value of USD 307.5 billion by 2035. Global installed offshore wind capacity reached 80.9 GW in 2024, with China accounting for approximately half. Capacity is expected to grow by 28% year-on-year in 2025, nearing 100 GW (MOL Service). Europe currently holds a leading market share, estimated at 47.0% in 2026 (Coherent Market Insights). The U.S. market also shows significant potential, with a development pipeline of 35,324 MW estimated in May 2021 (U.S. Department of Energy). Key growth drivers include supportive government policies, increasing turbine capacity, a declining Levelized Cost of Energy (LCOE), and expansion into new geographical markets (Fortune Business Insights).
+
+### Technological Advancements: Floating Wind and Turbine Scale
+A pivotal trend is the advancement and deployment of floating wind turbines. These technologies allow for installation in deeper waters, unlocking areas with stronger and more consistent wind resources, thereby expanding potential sites and increasing energy generation (U.S. Department of Energy; Iberdrola; UTM Consultants). The floating offshore wind market was valued at USD 1.18 billion in 2023 and is anticipated to grow at a remarkable CAGR of 45.5% from 2024 to 2030 (Grand View Research). Concurrently, turbine manufacturers are developing larger turbines with increased capacity, enhancing energy capture and reducing the cost per megawatt (Leadvent Group; UTM Consultants). Innovations in foundation designs (e.g., spar, semi-submersible, tension leg platform) and mooring systems, alongside adaptations for harsh environments, are also critical (UKERC; GEV Wind Power; Iberdrola; Grand View Research). Floating platforms offer a more cost-effective solution for deep-water installations compared to fixed-bottom foundations (GEV Wind Power).
+
+### Policy and Economic Drivers
+Government support and ambitious targets are primary catalysts for offshore wind development. For instance, the U.S. has set targets of 39 GW by 2040 (U.S. Department of Energy). Strong policy frameworks and climate goals are particularly influential in Europe (Coherent Market Insights). Economic incentives play a crucial role in attracting investment and fostering domestic manufacturing. In the U.S., projects can be eligible for tax credits of up to 50% of construction costs, with additional incentives for domestically produced components (Offshore Wind Facts). State-level programs, such as those in Massachusetts, aim to stimulate investment in manufacturing facilities and job creation (MassCEC). These policies are designed to reduce the LCOE and attract domestic manufacturing (Offshore Wind Facts; Fortune Business Insights). Beyond direct financial benefits, offshore wind is recognized for its potential to stimulate economic growth, create jobs (estimated 390,000 Americans employed), improve public health, enhance energy security, and meet carbon reduction targets (Energy Innovation; Sierra Club). Holistic transmission planning is also identified as a strategy to reduce costs by up to 30% and enhance resource diversity (Energy Innovation).
+
+## Critical Takeaways
+
+*   **Accelerated Market Growth:** The offshore wind market is set for significant expansion, driven by both established and emerging regions, with floating wind technology being a key enabler of future growth.
+*   **Technological Maturation of Floating Wind:** Floating offshore wind is transitioning from niche to mainstream, promising to unlock vast deep-water resources and driving a high CAGR for this segment.
+*   **Policy and Incentives are Critical:** Government support, including tax credits and manufacturing incentives, is indispensable for de-risking projects, attracting investment, and building robust domestic supply chains.
+*   **Cost Reduction Remains a Focus:** Continued innovation in turbine technology, foundation design, and efficient grid integration are essential for further reducing the LCOE and enhancing the competitiveness of offshore wind.
+
+## Data & Statistics
+
+*   **Projected Market Value (2035):** USD 307.5 billion (CAGR 12.2%) (Grand View Research, as cited by Coherent Market Insights)
+*   **Estimated Market Value (2024):** USD 39.97 billion (Grand View Research)
+*   **Projected Market Value (2030):** USD 65.04 billion (Grand View Research) or USD 76.54 billion (Fortune Business Insights)
+*   **Projected CAGR (2023-2030):** 13.8% (Fortune Business Insights)
+*   **Global Installed Capacity (2024):** 80.9 GW (MOL Service)
+*   **Projected Capacity Growth (2025):** ~100 GW (28% year-on-year increase) (MOL Service)
+*   **Europe's Market Share (2026):** ~47.0% (Coherent Market Insights)
+*   **U.S. Development Pipeline (May 2021):** 35,324 MW (U.S. Department of Energy)
+*   **Floating Offshore Wind Market Value (2023):** USD 1.18 billion (Grand View Research)
+*   **Projected Floating Wind CAGR (2024-2030):** 45.5% (Grand View Research)
+*   **U.S. Offshore Wind Tax Credit:** Up to 50% of construction costs (Offshore Wind Facts)
+*   **Domestic Manufacturing Incentive (U.S.):** Up to $16 million per turbine (Offshore Wind Facts)
+*   **Estimated U.S. Job Creation:** 390,000 jobs (Sierra Club)
+*   **Transmission Planning Cost Reduction:** Up to 30% (Energy Innovation)
+
+## Sources
+
+1.  https://www.energy.gov/cmei/systems/articles/top-trends-offshore-wind
+2.  https://www.grandviewresearch.com/industry-analysis/offshore-wind-market-report
+3.  https://www.linkedin.com/pulse/global-united-states-offshore-wind-power-market-analysis-dzyrf
+4.  https://www.coherentmarketinsights.com/market-insight/offshore-wind-energy-market-1417
+5.  https://www.mol-service.com/blog/offshore-wind-power-today
+6.  https://www.fortunebusinessinsights.com/offshore-wind-energy-market-105100
+7.  https://www.energy.gov/sites/default/files/2022-01/offshore-wind-energy-strategies-report-january-2022.pdf
+8.  https://offshorewindfacts.org/wp-content/uploads/2024/04/03_SIOW_The-Economics-of-Offshore-Wind-FINAL.pdf
+9.  https://energyinnovation.org/wp-content/uploads/2035-Offshore-Wind-Policy-Paper-2.pdf
+10. https://www.sierraclub.org/santa-lucia/economic-and-social-benefits-offshore-wind-industry
+11. https://www.masscec.com/program/offshore-wind-2025-tax-incentives
+12. https://ukerc.rl.ac.uk/publications/policy_briefing_paper/3505-Floating-Wind-Insights-Highres-AW.pdf
+13. https://www.gevwindpower.com/wind-industry-news/the-growth-of-floating-offshore-wind/
+14. https://www.iberdrola.com/about-us/our-innovation-model/floating-offshore-wind
+15. https://www.utmconsultants.com/advancements-in-offshore-wind-turbine-technology-what-lies-ahead/
+16. https://www.leadventgrp.com/blog/floating-wind-the-latest-technological-advancements
+17. https://www.grandviewresearch.com/industry-analysis/floating-offshore-wind-market
+
+SOURCES:
+  [1] https://www.energy.gov/cmei/systems/articles/top-trends-offshore-wind
+  [2] https://www.grandviewresearch.com/industry-analysis/offshore-wind-market-report
+  [3] https://www.linkedin.com/pulse/global-united-states-offshore-wind-power-market-analysis-dzyrf
+  [4] https://www.coherentmarketinsights.com/market-insight/offshore-wind-energy-market-1417
+  [5] https://www.mol-service.com/blog/offshore-wind-power-today
+  [6] https://www.fortunebusinessinsights.com/offshore-wind-energy-market-105100
+  [7] https://www.energy.gov/sites/default/files/2022-01/offshore-wind-energy-strategies-report-january-2022.pdf
+  [8] https://offshorewindfacts.org/wp-content/uploads/2024/04/03_SIOW_The-Economics-of-Offshore-Wind-FINAL.pdf
+  [9] https://energyinnovation.org/wp-content/uploads/2035-Offshore-Wind-Policy-Paper-2.pdf
+  [10] https://www.sierraclub.org/santa-lucia/economic-and-social-benefits-offshore-wind-industry
+

@@ -26,7 +26,7 @@ class Settings(BaseSettings):
     # ChromaDB
     CHROMA_PERSIST_DIR: str = str(BASE_DIR / "memory" / "chroma_store")
     CHROMA_COLLECTION_NAME: str = "energy_research"
-    SIMILARITY_THRESHOLD: float = 0.85
+    SIMILARITY_THRESHOLD: float = 0.80
 
     # Output
     KNOWLEDGE_BASE_PATH: str = str(BASE_DIR / "output" / "knowledge_base.txt")
