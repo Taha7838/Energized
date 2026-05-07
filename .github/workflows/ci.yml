@@ -217,35 +217,35 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Build agent backend image (no push)
-        uses: docker/build-push-action@v6
-        with:
-          context: ./agent/backend
-          file: ./agent/backend/Dockerfile
-          push: false
-          tags: energized-agent:ci
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+      # - name: Build agent backend image (no push)
+      #   uses: docker/build-push-action@v6
+      #   with:
+      #     context: ./agent/backend
+      #     file: ./agent/backend/Dockerfile
+      #     push: false
+      #     tags: energized-agent:ci
+      #     cache-from: type=gha
+      #     cache-to: type=gha,mode=max
 
-      - name: Build RAG backend image (no push)
-        uses: docker/build-push-action@v6
-        with:
-          context: ./rag
-          file: ./rag/Dockerfile
-          push: false
-          tags: energized-rag:ci
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+      # - name: Build RAG backend image (no push)
+      #   uses: docker/build-push-action@v6
+      #   with:
+      #     context: ./rag
+      #     file: ./rag/Dockerfile
+      #     push: false
+      #     tags: energized-rag:ci
+      #     cache-from: type=gha
+      #     cache-to: type=gha,mode=max
 
-      - name: Build frontend image (no push)
-        uses: docker/build-push-action@v6
-        with:
-          context: ./agent/frontend
-          file: ./agent/frontend/Dockerfile
-          push: false
-          tags: energized-frontend:ci
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+      # - name: Build frontend image (no push)
+      #   uses: docker/build-push-action@v6
+      #   with:
+      #     context: ./agent/frontend
+      #     file: ./agent/frontend/Dockerfile
+      #     push: false
+      #     tags: energized-frontend:ci
+      #     cache-from: type=gha
+      #     cache-to: type=gha,mode=max
 
 # =============================================================================
 # JOB 7 — Docker Hub Publish
