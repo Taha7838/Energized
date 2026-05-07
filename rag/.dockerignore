@@ -1,0 +1,13 @@
+# rag/.dockerignore
+.env
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+.pytest_cache
+chroma_db/
+data/
+.streamlit/
+app.py
