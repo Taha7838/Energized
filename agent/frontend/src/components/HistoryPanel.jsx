@@ -12,7 +12,7 @@ export default function HistoryPanel({ onSelect, currentQuery }) {
       setError(null)
       const items = await getHistory()
       setHistory(items)
-    } catch (e) {
+    } catch (_e) {
       setError('Failed to load history.')
     } finally {
       setLoading(false)
