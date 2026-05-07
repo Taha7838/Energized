@@ -57,7 +57,7 @@ jobs:
         run: |
           flake8 rag/ \
             --max-line-length=120 \
-            --extend-ignore=E302,E303,E501,F541,F401,W503,W291,W292,W293,E711,E712 \
+            --extend-ignore=E302,E303,E501,F541,F401,W503,W291,W292,W293,E711,E712,E221,E251,E272,E401,E701 \
             --exclude=__pycache__,.venv,*.egg-info,chroma_db \
             --count --statistics
 

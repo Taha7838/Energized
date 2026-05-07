@@ -47,7 +47,7 @@ export function streamQuery(query, { onProgress, onResult, onError, onDone }) {
     try {
       const data = JSON.parse(e.data)
       if (onResult) onResult(data)
-    } catch (_err) {
+    } catch {
       if (onError) onError('Failed to parse result from server.')
     }
   })
